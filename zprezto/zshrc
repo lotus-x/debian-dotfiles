@@ -1,0 +1,21 @@
+# Source Prezto.
+if [[ -s "${ZDOTDIR:-$HOME}/.zprezto/init.zsh" ]]; then
+  source "${ZDOTDIR:-$HOME}/.zprezto/init.zsh"
+fi
+
+# Environment
+
+export PATH="$PATH"
+export VISUAL=vim
+export EDITOR=vim
+
+# Aliases
+
+alias tl="tmux ls"
+alias ta="tmux a -t"
+alias tn="tmux new -s"
+alias dc="docker-compose"
+
+# Visual
+
+eval "$(starship init zsh)"
