@@ -14,7 +14,7 @@ export EDITOR=vim
 alias tl="tmux ls"
 alias ta="tmux a -t"
 alias tn="tmux new -s"
-alias dc="docker-compose"
+alias dc="docker compose"
 
 # Visual
 
